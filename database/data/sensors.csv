@@ -1,0 +1,50 @@
+station code;sensor code;type;unit;h;brand/model
+LSC;VV;wind speed;m/s;10 [m];
+LSC;DV;wind direction;º;10 [m];
+LSC;RS2;solar radiation;W/m2;10 [m];Kipp and Zonen/CMP10
+LSC;PA;atmospheric pressure;hPa;2 [m];
+LSC;RSDIF;diffuse solar radiation;W/m2;2 [m];Kipp and Zonen/SMP11
+LSC;PP;rainfall;mm;1.5 [m];
+LSC;RSDIR;direct solar radiation;W/m2;2 [m];Kipp and Zonen/SHP1
+LSC;set0;evapotranspiration;mm;0.1 [m];Software/Datalogger Func
+LSC;PR;dewpoint;ºC;1.5 [m];
+LSC;shf7;base chill hours 7;hf;2 [m];Software/Datalogger Func
+LSC;sufu;Utah chill units;hf;2 [m];Software/Datalogger Func
+LSC;BT;battery;V;1.5 [m];
+CGR;TA2;air temperature;ºC;2 [m];Vaisala/HMP155
+CGR;HR2;relative humidity;%;2 [m];
+CGR;VV5;wind speed;m/s;5 [m];RM Young/5103 Wind Monitor
+CGR;VV10;wind speed;m/s;10 [m];RM Young/5103 Wind Monitor
+CGR;DV5;wind direction;º;5 [m];RM Young/5103 Wind Monitor
+CGR;DV10;wind direction;º;10 [m];
+CGR;RS;solar radiation;W/m2;2 [m];Kipp and Zonen/CMP10
+CGR;set0;evapotranspiration;mm;0.1 [m];Software/Datalogger Func
+CGR;PR;dewpoint;ºC;2 [m];
+CGR;PPAN;collected water;ml;0 [m];
+CGR;shf7;base chill hours 7;hf;2 [m];Software/Datalogger Func
+CGR;sgd10;base degrees day 10;gd;2 [m];Software/Datalogger Func
+CGR;sufu;Utah chill units;hf;2 [m];Software/Datalogger Func
+CGR;BT;battery;V;1.5 [m];Software/Datalogger Func
+RMR;29;air temperature;ºC;2 [m];Vaisala/HMP45
+RMR;30;relative humidity;%;2 [m];Vaisala/HMP45
+RMR;26;wind speed;m/s;2 [m];RM Young/Wind Sentry 3001
+RMR;VV5;wind speed;m/s;5 [m];RM Young/Wind Sentry 3001
+RMR;27;wind direction;º;2 [m];RM Young/Wind Sentry 3001
+RMR;DV5;wind direction;º;5 [m];RM Young/Wind Sentry 3001
+RMR;109;PAR radiation;umol/m2*s;0 [m];
+RMR;RS2;solar radiation;W/m2;3 [m];Kipp and Zonen/CMP10
+RMR;28;solar radiation;W/m2;4 [m];LiCor/LI-200SA
+RMR;PA;atmospheric pressure;hPa;2 [m];Vaisala/PTB110
+RMR;25;rainfall;mm;1.5 [m];Texas Instruments/TR-525i
+RMR;32;ground temperature;ºC;-0.5 [m];EME Systems/TC
+RMR;31;ground temperature;ºC;-0.1 [m];EME Systems/TC
+RMR;5set0;evapotranspiration;mm;0.1 [m];Software/Datalogger Func
+RMR;TPR;dewpoint;ºC;2 [m];Software/Estandar
+RMR;85;leaf humidity;%;1.5 [m];EME Systems/LWET/V
+RMR;5sufu;Utah chill units;hf;2 [m];Software/Datalogger Func
+RMR;5shf7;base chill hours 7;hf;2 [m];Software/Datalogger Func
+RMR;5sgd10;base degrees day 10;gd;2 [m];Software/Datalogger Func
+RMR;ROLN;net long wave radiation;W/m2;3 [m];Kipp and Zonen/CGR3
+RMR;ROLI;incident long wave radiation;W/m2;3 [m];Kipp and Zonen/CGR3
+RMR;ROLIT;temperatue sensor;ºC;3 [m];
+RMR;BT;battery;V;1.5 [m];

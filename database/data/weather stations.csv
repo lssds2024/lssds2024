@@ -1,0 +1,4 @@
+code;name;lat;long;first measure timestamp;last measure timestamp;altitude;power source
+LSC;La Serena [CEAZA];-29.915.015;-71.242.214;18-7-14 12:45;1-8-21 12:45;90 [msnm];solar panel, 30w
+CGR;La Serena [Cerro Grande];-29.938.475;-71.223.505;5-8-15 15:05;26-5-21 13:25;513 [msnm];solar panel, 30w
+RMR;La Serena [El Romeral];-29.754.064;-71.257.442;1-2-04 00:03;1-8-21 08:00;162 [msnm];solar panel, 30w
