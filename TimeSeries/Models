@@ -1,0 +1,52 @@
+
+class Baseline(tf.keras.Model):
+    def __init__(self,):# label_index=1): # 1 is the temp column
+    super().__init__()
+    #self.label_index = label_index
+
+  def call(self, inputs):
+    #if self.label_index is None:
+      #return inputs
+    result = inputs[:, :, 1] #self.label_index]
+    return result[:, :, tf.newaxis]
+
+
+linear = Sequential([
+    Dense(units=1)
+])
+
+
+mlp = Sequential([
+    Dense(units=64, activation='relu'),
+    Dense(units=64, activation='relu'),
+    Dense(units=1)
+])
+
+
+
+multistep_mlp = Sequential([
+    # Shape: (time, features) => (time*features)
+    Flatten(),
+    Dense(units=32, activation='relu'),
+    Dense(units=32, activation='relu'),
+    Dense(units=1),
+    # Add back the time dimension.
+    # Shape: (outputs) => (1, outputs)
+    Reshape([1, -1]),
+])
+
+
+
+rnn_model = Sequential([
+    # Shape [batch, time, features] => [batch, time, rnn_units]
+  SimpleRNN(128),#tf.keras.layers.RNN(32, return_sequences=True),
+    Dense(units=1)])
+
+
+
+lstm_model = Sequential([
+    # Shape [batch, time, features] => [batch, time, lstm_units]
+    LSTM(32, return_sequences=True),
+    # Shape => [batch, time, features]
+     Dense(units=1)
+])
