@@ -1,4 +1,5 @@
 # Auto Encoders
 
 folder content:
-- slides
+- slides on manifold learning and autoencoders
+- 
