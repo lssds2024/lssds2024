@@ -1,3 +1,7 @@
+# Time Series Analysis 
+
+Including: RNN, LSTM
+
 Folder contains: 
 
 - [Slides](https://github.com/lssds2024/lssds2024/blob/main/TimeSeries/lsdss24_ts.pdf) on time series analysis
